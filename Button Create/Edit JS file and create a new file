@@ -1,0 +1,47 @@
+Navigate to the App.js file in the new folder created in VSCODE.
+
+Under App() function (react component) remove all code.
+
+
+
+App.js
+
+
+import logo from './logo.svg';
+import './App.css';
+import Button from './button';
+
+function App() {
+  return (
+    
+     <div>
+       <h1>Today we are learning React</h1>
+       <Button/>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+button.js
+
+
+import React from "react";
+
+const Button = () =>
+{
+    return (
+    <button>Click me</button>
+    );
+};
+
+export default Button;
+
+
+
+
+
+
