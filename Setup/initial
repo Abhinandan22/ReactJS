@@ -1,0 +1,15 @@
+Install Node JS
+
+Open VS CODE
+
+Create/Open folder
+
+Open terminal in VSCODE
+
+Type 
+
+npx create-react-app my-app
+
+npm start and then press enter
+
+The setup goes on till build successful
