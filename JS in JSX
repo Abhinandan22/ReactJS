@@ -1,0 +1,16 @@
+User {varName} to pass values 
+
+const myName = "Utkarsh";
+
+function App() {
+  return (
+    
+     <div>
+       <h1>Today we are learning React</h1>
+       <h5>my Name is {myName}</h5> 
+        <Button/>
+    </div>
+  );
+}
+
+export default App;
