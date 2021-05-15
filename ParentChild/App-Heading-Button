@@ -1,0 +1,55 @@
+button.js
+
+
+import React from "react";
+
+const Button = () =>
+{
+    return(
+        <button> Click Me </button>
+    );
+};
+
+export default Button;
+
+
+heading.js
+
+import React from 'react';
+import Button from './button';
+
+const Heading = () =>
+{
+    return (
+       <div>
+        <h1>Today I am learning React</h1>
+        <Button/>
+       </div>
+    );
+};
+
+export default Heading;
+
+
+App.js
+
+
+import logo from './logo.svg';
+import './App.css';
+//import Button from './button';
+import Heading from './heading';
+
+function App() {
+  return (
+   <div>
+      <Heading/>
+      <Heading/>
+      <Heading/>
+      <Heading/>
+      <Heading/>
+      <Heading/>
+  </div>
+  );
+}
+export default App;
+
