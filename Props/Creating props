@@ -1,0 +1,51 @@
+App.js 
+
+import logo from './logo.svg';
+import './App.css';
+//import Button from './button';
+import Heading from './heading';
+
+const valueofdata = "Loading Data";
+
+function App() {
+  return (
+   <div>
+      <Heading headingData={valueofdata}/>
+      
+  </div>
+  );
+}
+export default App;
+
+
+Heading.js
+
+import React from 'react';
+import Button from './button';
+
+const Heading = (props) =>
+{
+    return (
+       <div>
+        <h1>Today I am learning {props.headingData}</h1>>
+        <Button/>
+       </div>
+    );
+};
+
+export default Heading;
+
+
+
+Button.js
+
+import React from "react";
+
+const Button = () =>
+{
+    return(
+        <button> Click Me </button>
+    );
+};
+
+export default Button;
