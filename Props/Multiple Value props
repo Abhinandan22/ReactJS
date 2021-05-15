@@ -1,0 +1,55 @@
+App.js
+
+import logo from './logo.svg';
+import './App.css';
+//import Button from './button';
+import Heading from './heading';
+
+
+
+function App() {
+  return (
+   <div>
+      <Heading headingData="NodeJS"/>
+      <Heading headingData="VueJS"/>
+      <Heading headingData="AngularJS"/>
+      <Heading headingData="BackboneJS"/>
+      <Heading headingData="NodeJS"/>
+      
+  </div>
+  );
+}
+export default App;
+
+
+
+Heading.js
+
+import React from 'react';
+import Button from './button';
+
+const Heading = (props) =>
+{
+    return (
+       <div>
+        <h1>Today I am learning {props.headingData}</h1>>
+        <Button/>
+       </div>
+    );
+};
+
+export default Heading;
+
+
+button.js
+
+import React from "react";
+
+const Button = () =>
+{
+    return(
+        <button> Click Me </button>
+    );
+};
+
+export default Button;
